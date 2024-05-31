@@ -41,6 +41,7 @@ $ docker run -it --rm -p  8001:8080 --name my-nginx nginx
 - `-p 8001:8080` - 将 `8001` 端口映射到容器中的 `8080` 端口
 - `--name my-nginx` - 指定名称
 - `nginx` - 要使用的镜像
+- `--platform linux/amd64 ` - Apple silicon Macs 在不同架构执行Apple silicon Mac
 
 ### 一般命令
 
